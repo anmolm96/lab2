@@ -30,6 +30,45 @@ img .thumbnail
 	background: none;
 }
 
+.container
+{
+	align-items: center;
+}
+
+.back
+{
+		position: relative;
+		background: none;
+}
+.back:after
+{
+	content:"";
+	background: url("http://www.gamecrazyparty.com/blog/wp-content/uploads/2012/06/Low-Res-Website-Background-300dpi.jpg");
+	opacity: 0.3;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	position: absolute;
+	z-index: -1;
+}
+
+.project
+{
+	width: 600px;
+	height: 350px;
+	padding: 20px;
+	background-color: #deebf7;
+	border: 1px solid #0F78E8;
+	margin-left: 270px;
+	text-align: center;
+}
+
+.title
+{
+	text-align: center;
+}
+
 .jumbotron:after {
      content:"";
      background: url("http://lorempixel.com/1140/283");
